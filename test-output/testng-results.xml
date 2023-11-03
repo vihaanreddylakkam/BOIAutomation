@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T21:53:41 IST" name="Suite" finished-at="2023-11-02T21:53:51 IST" duration-ms="9819">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T21:53:41 IST" name="ChromeTest1" finished-at="2023-11-02T21:53:51 IST" duration-ms="9819">
+      <class name="Login_HomePage.Signup_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:41 IST" name="beforeSuite" finished-at="2023-11-02T21:53:41 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:41 IST" name="beforeTest" finished-at="2023-11-02T21:53:51 IST" duration-ms="9713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="startTest" finished-at="2023-11-02T21:53:51 IST" duration-ms="68" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null
+at org.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:382)
+at org.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:489)
+at Login_HomePage.MyScreenRecorder.startRecording(MyScreenRecorder.java:74)
+at Login_HomePage.Signup_Test.startTest(Signup_Test.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_001_Verify_Signup_Button_in_Login_page()[pri:1, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="TC_001_Verify_Signup_Button_in_Login_page" finished-at="2023-11-02T21:53:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null
+at org.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:382)
+at org.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:489)
+at Login_HomePage.MyScreenRecorder.startRecording(MyScreenRecorder.java:74)
+at Login_HomePage.Signup_Test.startTest(Signup_Test.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Verify_Signup_Button_in_Login_page -->
+        <test-method signature="TC_002_options_displayed_in_Signup_Button()[pri:2, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="TC_002_options_displayed_in_Signup_Button" finished-at="2023-11-02T21:53:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null
+at org.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:382)
+at org.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:489)
+at Login_HomePage.MyScreenRecorder.startRecording(MyScreenRecorder.java:74)
+at Login_HomePage.Signup_Test.startTest(Signup_Test.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_options_displayed_in_Signup_Button -->
+        <test-method signature="TC_003_Invalid_uniqueid()[pri:3, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="TC_003_Invalid_uniqueid" finished-at="2023-11-02T21:53:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null
+at org.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:382)
+at org.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:489)
+at Login_HomePage.MyScreenRecorder.startRecording(MyScreenRecorder.java:74)
+at Login_HomePage.Signup_Test.startTest(Signup_Test.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_Invalid_uniqueid -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="endTest" finished-at="2023-11-02T21:53:51 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Login_HomePage.Signup_Test@158a8276]" started-at="2023-11-02T21:53:51 IST" name="afterSuite" finished-at="2023-11-02T21:53:51 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Login_HomePage.Signup_Test -->
+    </test> <!-- ChromeTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>
